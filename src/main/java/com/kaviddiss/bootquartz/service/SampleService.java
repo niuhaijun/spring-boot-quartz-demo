@@ -10,9 +10,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class SampleService {
 
-    private static final Logger LOG = LoggerFactory.getLogger(SampleService.class);
+  private static final Logger LOG = LoggerFactory.getLogger(SampleService.class);
 
-    public void hello() {
-        LOG.info("Hello World!");
-    }
+  public void hello() {
+
+    LOG.info("Hello World!");
+  }
 }
